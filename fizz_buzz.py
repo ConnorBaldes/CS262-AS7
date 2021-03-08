@@ -1,3 +1,7 @@
 def fizz_buzz():
-    
-    return 0
+    numbers = ""
+    for i in range(100):
+        numbers += str(i+1)
+        if i != 99:
+            numbers +=" "
+    return numbers
